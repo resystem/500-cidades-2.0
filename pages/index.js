@@ -1,8 +1,7 @@
 import React from 'react';
 import BaseHead from '../components/baseHead';
-// import Landing from '../components/pages/landing/landing';
+import LandingTemplate from '../components/templates/landing/landing';
 import '../components/I18n';
-import Sandbox from '../components/pages/sandbox/sandbox';
 
 
 /**
@@ -11,7 +10,7 @@ import Sandbox from '../components/pages/sandbox/sandbox';
 const Home = () => (
   <>
     <BaseHead />
-    <Sandbox />
+    <LandingTemplate />
   </>
 );
 
